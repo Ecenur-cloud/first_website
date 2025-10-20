@@ -1,0 +1,161 @@
+
+body {
+    background: rgb(110, 26, 199);
+    background: radial-gradient(circle, rgba(110, 26, 199, 0.9500175070028011) 0%, rgba(49, 12, 83, 1) 0%);
+
+}
+.nav-item {
+    background-color: rgb(43, 41, 116);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0.5%;
+    margin-right: 20px;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #4a008f;
+}
+
+.navbar {
+    border-bottom: 1px solid #4a008f;
+    z-index: 2;
+    position: fixed;
+    background-color: rgb(41, 10, 114);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Baslik {
+    text-shadow: 5px 5px 7px;
+    font-size: 10px;
+}
+.ece
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 29, 29);
+    width: 150px;
+    border-radius: 50px ;
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    transition-duration: 1s;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: black;
+    
+}
+.ece:hover{
+    align-items: center;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    width: 350px;
+    border-radius: 100px;
+    background-color: rgba(21, 25, 214, 0.753);
+    box-shadow: 10px 10px 20px;
+    text-decoration-color: rgb(253, 4, 4);
+    justify-content: center;
+    text-align: center;
+    transition-duration: 1s;
+    justify-content: space-between;
+    
+    
+}
+.b2
+{
+    height: 150px;
+    border-radius: 50px;
+    transition-duration: 1s;
+    text-align: center;
+    background-image: url('https://pbs.twimg.com/media/EzCinAcWQAswV6i.jpg');
+    box-shadow: 10px 10px 20px rgb(189, 49, 49);
+    color: rgb(255, 255, 255);
+    
+   
+
+}
+
+h1
+{
+    text-align: center;
+    color: yellow;
+    
+}
+.b1
+{
+  justify-content:space-around;
+  display: flex;
+  color: white;
+}
+
+
+
+.s1{
+    background-image: url(https://img-s1.onedio.com/id-57f6282807f954d01467a19d/rev-0/w-600/h-375/f-jpg/s-9f11efd6e9fe7434936155d6370ca01b352de9bc.jpg);
+    border-radius: 10px 10px 20px;
+    float:left;
+    width: 30%;
+    height: 200px;
+    text-shadow: 10px 10px 20px;
+    text-decoration: solid;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin: 30px;
+    margin-left: 50px;
+    
+}
+.s2
+{
+    border-radius: 10px 10px 20px;
+    float:left;
+    width: 30%;
+    height: 200px;
+    text-shadow: 10px 10px 20px;
+    text-decoration: solid;
+    text-align: center;
+    margin: 25px;
+    justify-content: space-between;
+    display: flex;
+    background-image: url(https://www.evrensel.net/upload/dosya/201771.jpg);
+}
+
+.s3
+{  
+    float:left;
+    border-radius: 10px 10px 20px;
+    width: 30%;
+    height: 200px;
+    text-shadow: 10px 10px 20px;
+    text-decoration: solid;
+    text-align: center;
+    display: flex;
+    margin: 30px;
+    background-image: url(https://media.istockphoto.com/id/1271638274/tr/vektör/güzel-gece-manzara-illüstrasyon.jpg?s=612x612&w=0&k=20&c=Q4nAoXWp1GXPVdixWaadZgyEsNCV17-Su_rObjnx3FE=);
+}
+
+.yazi{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px red;
+    width: 700px;
+    height: 600px;
+    font-style: italic;
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    
+
+}

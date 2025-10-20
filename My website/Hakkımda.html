@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda</title>
+    <link rel="shortcut icon" href="./fotograf/pngegg-_1_.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: rgb(110, 26, 199);
+            background: radial-gradient(circle, rgba(110, 26, 199, 0.9500175070028011) 0%, rgba(49, 12, 83, 1) 0%);
+
+        }
+
+        .nav-item {
+            background-color: rgb(43, 41, 116);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 0.5%;
+            margin-right: 20px;
+            width: 90px;
+            height: 50px;
+            text-align: center;
+            box-shadow: 5px 5px 10px #4a008f;
+        }
+
+        .navbar {
+            border-bottom: 1px solid #4a008f;
+            z-index: 2;
+            position: fixed;
+            background-color: rgb(41, 10, 114);
+            justify-content: space-between;
+            width: 100%;
+            top: 0px;
+        }
+
+        .Baslik {
+            text-shadow: 5px 5px 7px;
+            font-size: 10px;
+        }
+
+        .row {
+            border-radius: 20px;
+        }
+
+        .profil-kart {
+            background-color: #4d0294;
+            margin-left: 35%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 25px;
+            padding: 10px;
+            border: 1px solid #ffffff40;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .resim {
+            position: relative;
+            height: 150px;
+            width: 150px;
+        }
+
+        .resim .profil-resmi {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .b1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            color: white;
+        }
+
+        .b1 h2 {
+            font-size: 33px;
+            font-weight: 600;
+            color: white;
+        }
+
+        span {
+            font-size: 18px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .row .c1 {
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .button {
+            background-color: #7007a0;
+            border-radius: 20px;
+            width: 100px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand  navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./fotograf/pngegg (1).png " class="rounded-pill" width="50px" style="margin-left: 20px;">
+            </a>
+        </div>
+        <div class="Baslik">
+            <pre><h1 style="margin-right: 250px; margin-top: 30px; justify-content: left; color: #fffdd0;"> Blogging of Software</h1></pre>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navb" style="justify-content: right; height: 10px; margin-top: 5px;">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <pre>Ana sayfa</pre>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Hakkımda.html">Hakkımda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Etkinlikler.html">Etkinlikler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="İletişim.html">İletişim</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="profil-kart">
+        <div class="resim">
+            <img src="./fotograf/profil.jpeg" class="profil-resmi">
+        </div>
+        <div class="b1">
+            <h2>Ecenur Uzun</h2>
+            <span>Yazılım mühendisi</span>
+        </div>
+        <div class="row">
+            <div class="c1">
+                <h3>Takipçiler</h3>
+                <span>1200</span>
+            </div>
+
+            <div class="c1">
+                <h3>Gönderiler</h3>
+                <span>40</span>
+            </div>
+        </div>
+        <div class="button" >
+        <a href="https://www.instagram.com" style="color: white;">İnstagram</a>
+        </div>
+    </div>
+    <div class="container pt-5 pb-5 mt-3 ">
+        <div class="row" style="background-color:#4d0294; height: 500px;">
+            <div class="col-6">
+                <video src="./fotograf/video.mp4" autoplay="autoplay" width="250px"
+                    style="margin-top: 30px; margin-left: 50px; border-radius: 20px;"></video>
+            </div>
+            <div class="col-6" style="text-align: center; margin-top: 50px;">
+                <h2 style="margin-bottom: 20px ; color: white; margin-right: 50px;">Ben Ecenur Uzun 20 yaşındayım ve
+                    çocukluktan beri
+                    yazılıma karşı büyük bir ilgim var bunun içinde şu anda hayallerimi gerçekleştirmek için Bartın
+                    Üniversitesinde bilgisayar programcılığı okuyorum bundan sonraki aşamamda dgs ile geçiş yapıp
+                    yazılım mühendisi olmak istiyorum.</h2>
+            </div>
+        </div>
+       
+
+    <p style="margin-left: 35%; margin-top: 5%; color: white;">Telif hakkı © 2024 Tüm hakları saklıdır.-Ecenur UZUN</p>
+
+
+
+
+</body>
+
+</html>
